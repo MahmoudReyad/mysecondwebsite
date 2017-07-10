@@ -1,0 +1,496 @@
+/* Start  Rules */
+.container {
+	width: 1170px;
+	margin: auto;
+}
+.clearfix{
+	clear: both;
+}
+
+/* End Rules   */
+
+
+/* Start Header */
+.header .navbar{
+	overflow: hidden;
+	padding: 10px;
+}
+.header .navbar .container .logo img {
+	float: left;
+}
+.header .navbar .container ul{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	float: right;
+}
+.header .navbar .container ul li {
+	font-size: 18px;
+	float: left;
+	display: inline-block;
+	color: #7f7f7f;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+.header .slider {
+	background-image: url('../images/slider/1.jpg');
+	height: 600px;
+	text-align: center;
+	
+}
+
+.header .slider .container .slidercontent{
+	padding-top: 300px;
+	text-align: center;
+	margin: auto;
+}
+.header .slider .container .slidercontent h2{
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: arial;
+
+
+}
+.header .slider .container .slidercontent h2:first-of-type{
+	
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.header .slider .container .slidercontent h2:last-of-type{
+	font-weight: bold;
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+.header .slider .container .slidercontent button {
+	padding: 10px 50px;
+	background-color: #93c93a;
+	color: #fff;
+	border:none;
+}
+
+/* End Header */
+
+/* Start Service */
+
+
+.service{
+	overflow: hidden;
+	padding: 70px 0;
+}
+.service   .servtype  .container div{
+	width: 27.3333%;
+	float: left;
+	margin-right: 2%;
+	text-align: justify;
+
+
+}
+.service  .servtype .container i{
+	float: left;
+	display: inline-block;
+	padding-right: 10px;
+	margin-top: 12px;
+	
+}
+.service   .servtype .container div h2 {
+	margin: 0;
+	color: #343434;
+	border-bottom: 2px solid #000;
+	padding-bottom: 10px;
+}
+.service  .servtype  .container div p{
+	color: #7c7c7c;
+	width: 300px;
+	line-height: 1.5;
+}
+
+/* End Service    */
+
+/* Start Service Slider */
+.serviceslider {
+	background-image: url(../images/divider-bg.jpg);
+	height: 350px;
+	color: #fff;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+.serviceslider .servicecontent .container {
+	padding: 80px 0 0 40px;
+}
+.serviceslider .servicecontent .container h2 {
+	font-size: 40px;
+	margin: 0;
+}
+.serviceslider .servicecontent .container h2 span{
+	color: #93ca3a;
+	text-transform: capitalize;
+}
+.serviceslider .servicecontent .container h3 {
+	font-size: 25px;
+	
+}
+.serviceslider .servicecontent .container h3  span{
+
+	padding: 8px;
+	background-color: #fff;
+	color: #000;
+}
+.serviceslider .servicecontent .container   p{
+
+	line-height: 1.7;
+	width: 700;
+}
+/*End service  Slider */
+/* Start About Me   */
+	.about {
+		overflow: hidden;
+		padding-bottom: 75px;
+		border-bottom: 1px solid #f6f6f6;
+	}
+
+	.about .container .aboutsoultin {
+		width: 50%;
+		margin-right: 3%;
+		float: left;
+	}
+	.about .container .aboutsoultin h1 {
+		color: #93ca3b;
+		font-size: 40px;
+		margin: 0 0 20px 0;
+	}
+	.about .container .aboutsoultin p{
+		color: #929292;
+		line-height: 1.7;
+	}
+	.about .container .progress div{
+
+		width: 100%;
+		height: 8px;
+		background-color: #fdfdfd;
+		border: 1px solid #ededed;
+		border-radius: 25px;
+		
+	}
+	.about .container .progress p {
+		color: #343434;
+	}
+	.about .container .progress p span{
+		margin-right: 30%;
+		color: #6f6f6f;
+	}
+	.about .container .progress div > span{
+		display: block;
+		background-color: #93ca3b;
+		width: 90% ;
+		height:8px;
+		border-radius: 25px;
+	}
+		.about .container .progress {
+		width: 45%;
+		float: left;
+		
+	}
+
+
+/* End About ME     */
+
+/* Start Team */
+.team {
+	overflow: hidden;
+	text-align: center;
+	padding: 70px 0;
+}
+.team .container h3 {
+	font-size: 28px;
+	color: #333333;
+}
+.team .container .teaminfo {
+	float: left;
+	width: 33.3333%;
+}
+.team .container .teaminfo img{
+	height: 350px;
+	width: 350px;
+}
+
+.team .container .teaminfo p:first-of-type{
+	font-weight: bold;
+}
+.team .container .teaminfo p span{
+	font-size: 30px;
+	color: #97cc41;
+}
+.team .container .teaminfo p:last-of-type  {
+
+	width: 350px;
+	color: #606060;
+	line-height: 1.7;
+}
+
+.team .container .teaminfo .teamsocial i{
+	margin-right: 30px;
+	cursor: pointer;
+}
+.team .container .teaminfo .teamsocial i:nth-child(1):hover{
+	color: #3b5998;
+}
+.team .container .teaminfo .teamsocial i:nth-child(2):hover{
+	color: #00aced;
+}
+.team .container .teaminfo .teamsocial i:nth-child(3):hover{
+	color: #cd3a6a;
+}
+.team .container .teaminfo .teamsocial i:nth-child(4):hover{
+	color: #bd081b;
+}
+/* End Team   */
+/* Start News Letter */
+.newsletter{
+	background-image: url('../images/newsletter-bg.jpg');
+	height: 320px;
+	background-size: 100% 500px;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	margin-bottom: 40px;
+
+}
+.newsletter .newscontent{
+	padding-top: 80px;
+}
+.newsletter .newscontent h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.newsletter .newscontent p{
+	margin-bottom: 30px;
+}
+.newsletter .newscontent input[name="email"]
+{
+	width: 270px;
+	padding: 10px 0;
+	background:none;
+	border: 1px solid #fff;
+}
+.newsletter .newscontent button{
+	padding: 11px 38px;
+	color: #fff;
+	background-color: #93c93a;
+	border: none;
+	margin-left: 15px;
+}
+
+/* End News Letter   */
+/* Start pricin */
+.pricing{
+	padding-top: 30px;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 110px;
+	margin-bottom: 50px;
+	border-bottom: 1px  solid #f6f6f6;
+	
+
+}
+.pricing h2:first-of-type{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+
+}
+.pricing .container div{
+	border: 1px solid #f6f6f6;
+	width: 24%;
+	float: left;
+	position: relative;
+	
+}
+.pricing .container .d2{
+	top: 30px;
+}
+.pricing .container .d3{
+	bottom: 15px;
+}
+.pricing .container .d4{
+	bottom: 45px;
+}
+.pricing .container div h2{
+	font-size: 40px;
+	color: #9bc849;
+	text-transform: none;
+}
+.pricing .container div p{
+	color: #7c7c7c;
+	margin-bottom: 35px;
+}	
+
+.pricing .container div button{
+	padding: 6px 38px;
+	color: #fff;
+	background-color: #93c93a;
+	border: none;
+	margin-bottom: 30px;
+
+}	
+
+/* End Pricing */
+
+/* Start Project  */ 
+
+.projects {
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.projects .container h2{
+	font-size: 30px;
+}
+.projects  .container ul {
+	list-style: none;
+	padding-left: 0;
+	margin: auto;
+	text-align: center;
+	margin-left: 400px;
+
+}
+.projects .container   ul li {
+	float: left;
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+	margin-right: 8px;
+	display: block;
+	margin-bottom: 20px;
+}
+.projects .container .projectgallery div {
+	width: 33.333%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+.projects .container .projectgallery div img{
+	width: 360px;
+	height: 300px;
+}
+/* End Project    */
+
+/* Start Contact us */
+.contactus {
+	overflow: hidden;
+	background-image: url(../images/contact-bg.jpg);
+	color: #fff;
+	padding: 90px 0 110px 0
+}
+.contactus .container .contactinfo ,.contactus .container .form {
+	width: 50%;
+	float:left;
+}
+
+.contactus .container .contactinfo div{
+	width: 50%;
+	float: left;
+
+}
+.contactus .container .contactinfo div:first-of-type{
+	margin-right: 5%;
+	width: 45%;
+}
+.contactus .container .contactinfo div:first-of-type h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.contactus .container .contactinfo div:first-of-type p {
+	line-height: 1.7;
+}
+.contactus .container .contactinfo div:first-of-type i{
+	margin-right: 20px;
+	color: #93c93a;
+}
+.contactus .container .contactinfo div:first-of-type i:first-of-type{
+	margin-left: 15px;
+}
+
+.contactus .container .contactinfo div:last-of-type h3{
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+.contactus .container .contactinfo div:last-of-type p{
+	line-height: 1.7;
+}
+.contactus .container .contactinfo div:last-of-type p i{
+	color: #93c93a;
+}
+	.contactus .container .form  input[name="Name"]{
+		width: 45%;
+		margin-right: 5%;
+	}
+		.contactus .container .form  input[name="email"]{
+			width: 45%
+	}
+	.contactus .container .form  input{
+		margin-bottom: 20px;
+		padding: 15px 0;
+		border-radius:8px;
+	}
+	.contactus .container .form  input[name="message"]{
+		width: 96%;
+		padding: 80px 0;
+	}
+	.contactus .container .form button{
+		float: right;
+		padding: 10px 25px;
+		background-color: #fff;
+		border: none;
+		margin-right: 22px;
+		border-radius: 8px;
+	}
+/* End Contact Us */
+
+/* start Map */ 
+
+.map{
+	margin-bottom: 50px;
+}
+/* End Map   */ 
+
+/* Start Footer */
+.footer .container .content{
+	float: left;
+}
+.footer .container .content p{
+	margin: 0  0 5px 0;
+}
+.footer .container .social {
+	float: right;
+}
+
+.footer .container .social i {
+	margin-right: 20px;
+}
+
+/* End Footer  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
